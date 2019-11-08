@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Proyecto-Final-Carretero-Covelli/static/css/main.f05016c4.chunk.css",
-    "main.js": "/Proyecto-Final-Carretero-Covelli/static/js/main.03eea9c2.chunk.js",
-    "main.js.map": "/Proyecto-Final-Carretero-Covelli/static/js/main.03eea9c2.chunk.js.map",
+    "main.js": "/Proyecto-Final-Carretero-Covelli/static/js/main.6c1a76fe.chunk.js",
+    "main.js.map": "/Proyecto-Final-Carretero-Covelli/static/js/main.6c1a76fe.chunk.js.map",
     "runtime-main.js": "/Proyecto-Final-Carretero-Covelli/static/js/runtime-main.54f46f82.js",
     "runtime-main.js.map": "/Proyecto-Final-Carretero-Covelli/static/js/runtime-main.54f46f82.js.map",
     "static/js/2.1a40bae4.chunk.js": "/Proyecto-Final-Carretero-Covelli/static/js/2.1a40bae4.chunk.js",
     "static/js/2.1a40bae4.chunk.js.map": "/Proyecto-Final-Carretero-Covelli/static/js/2.1a40bae4.chunk.js.map",
     "index.html": "/Proyecto-Final-Carretero-Covelli/index.html",
-    "precache-manifest.9bc84c62824904f57fca432284934710.js": "/Proyecto-Final-Carretero-Covelli/precache-manifest.9bc84c62824904f57fca432284934710.js",
+    "precache-manifest.7dcc8c96363a2e856460144f004ac37f.js": "/Proyecto-Final-Carretero-Covelli/precache-manifest.7dcc8c96363a2e856460144f004ac37f.js",
     "service-worker.js": "/Proyecto-Final-Carretero-Covelli/service-worker.js",
     "static/css/main.f05016c4.chunk.css.map": "/Proyecto-Final-Carretero-Covelli/static/css/main.f05016c4.chunk.css.map",
     "static/media/logo.svg": "/Proyecto-Final-Carretero-Covelli/static/media/logo.25bf045c.svg"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.54f46f82.js",
     "static/js/2.1a40bae4.chunk.js",
     "static/css/main.f05016c4.chunk.css",
-    "static/js/main.03eea9c2.chunk.js"
+    "static/js/main.6c1a76fe.chunk.js"
   ]
 }
