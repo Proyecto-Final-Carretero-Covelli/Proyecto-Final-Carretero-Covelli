@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Proyecto-Final-Carretero-Covelli/static/css/main.b100e6da.chunk.css",
+    "main.js": "/Proyecto-Final-Carretero-Covelli/static/js/main.12e65437.chunk.js",
+    "main.js.map": "/Proyecto-Final-Carretero-Covelli/static/js/main.12e65437.chunk.js.map",
+    "runtime-main.js": "/Proyecto-Final-Carretero-Covelli/static/js/runtime-main.54f46f82.js",
+    "runtime-main.js.map": "/Proyecto-Final-Carretero-Covelli/static/js/runtime-main.54f46f82.js.map",
+    "static/js/2.28d5f345.chunk.js": "/Proyecto-Final-Carretero-Covelli/static/js/2.28d5f345.chunk.js",
+    "static/js/2.28d5f345.chunk.js.map": "/Proyecto-Final-Carretero-Covelli/static/js/2.28d5f345.chunk.js.map",
+    "index.html": "/Proyecto-Final-Carretero-Covelli/index.html",
+    "precache-manifest.4474573db88ea3b6f842b7dc8fc1ec1a.js": "/Proyecto-Final-Carretero-Covelli/precache-manifest.4474573db88ea3b6f842b7dc8fc1ec1a.js",
+    "service-worker.js": "/Proyecto-Final-Carretero-Covelli/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/Proyecto-Final-Carretero-Covelli/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/Proyecto-Final-Carretero-Covelli/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54f46f82.js",
+    "static/js/2.28d5f345.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.12e65437.chunk.js"
+  ]
+}
