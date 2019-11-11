@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "32f179354467f26f99534283877fa112",
+    "revision": "b38b16fbe25244c189315f7196c78dd7",
     "url": "/Proyecto-Final-Carretero-Covelli/index.html"
   },
   {
-    "revision": "aeb1e5e4b51e09089ef4",
-    "url": "/Proyecto-Final-Carretero-Covelli/static/css/main.09f8ffb2.chunk.css"
+    "revision": "19cf306aa110e358f652",
+    "url": "/Proyecto-Final-Carretero-Covelli/static/css/main.2859c8e7.chunk.css"
   },
   {
     "revision": "3f75b90f11701f6ce089",
     "url": "/Proyecto-Final-Carretero-Covelli/static/js/2.d79be4d4.chunk.js"
   },
   {
-    "revision": "aeb1e5e4b51e09089ef4",
-    "url": "/Proyecto-Final-Carretero-Covelli/static/js/main.86b2ae89.chunk.js"
+    "revision": "19cf306aa110e358f652",
+    "url": "/Proyecto-Final-Carretero-Covelli/static/js/main.58169372.chunk.js"
   },
   {
     "revision": "a3f0e3963f2eda4ae6e3",
