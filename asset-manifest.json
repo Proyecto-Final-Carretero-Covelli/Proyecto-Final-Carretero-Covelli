@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/Proyecto-Final-Carretero-Covelli/static/css/main.f05016c4.chunk.css",
-    "main.js": "/Proyecto-Final-Carretero-Covelli/static/js/main.6c1a76fe.chunk.js",
-    "main.js.map": "/Proyecto-Final-Carretero-Covelli/static/js/main.6c1a76fe.chunk.js.map",
+    "main.css": "/Proyecto-Final-Carretero-Covelli/static/css/main.09f8ffb2.chunk.css",
+    "main.js": "/Proyecto-Final-Carretero-Covelli/static/js/main.86b2ae89.chunk.js",
+    "main.js.map": "/Proyecto-Final-Carretero-Covelli/static/js/main.86b2ae89.chunk.js.map",
     "runtime-main.js": "/Proyecto-Final-Carretero-Covelli/static/js/runtime-main.54f46f82.js",
     "runtime-main.js.map": "/Proyecto-Final-Carretero-Covelli/static/js/runtime-main.54f46f82.js.map",
-    "static/js/2.1a40bae4.chunk.js": "/Proyecto-Final-Carretero-Covelli/static/js/2.1a40bae4.chunk.js",
-    "static/js/2.1a40bae4.chunk.js.map": "/Proyecto-Final-Carretero-Covelli/static/js/2.1a40bae4.chunk.js.map",
+    "static/js/2.d79be4d4.chunk.js": "/Proyecto-Final-Carretero-Covelli/static/js/2.d79be4d4.chunk.js",
+    "static/js/2.d79be4d4.chunk.js.map": "/Proyecto-Final-Carretero-Covelli/static/js/2.d79be4d4.chunk.js.map",
     "index.html": "/Proyecto-Final-Carretero-Covelli/index.html",
-    "precache-manifest.7dcc8c96363a2e856460144f004ac37f.js": "/Proyecto-Final-Carretero-Covelli/precache-manifest.7dcc8c96363a2e856460144f004ac37f.js",
+    "precache-manifest.31b647e09df2ca061fbe2e627ec46f77.js": "/Proyecto-Final-Carretero-Covelli/precache-manifest.31b647e09df2ca061fbe2e627ec46f77.js",
     "service-worker.js": "/Proyecto-Final-Carretero-Covelli/service-worker.js",
-    "static/css/main.f05016c4.chunk.css.map": "/Proyecto-Final-Carretero-Covelli/static/css/main.f05016c4.chunk.css.map",
+    "static/css/main.09f8ffb2.chunk.css.map": "/Proyecto-Final-Carretero-Covelli/static/css/main.09f8ffb2.chunk.css.map",
+    "static/media/avatar-photo.png": "/Proyecto-Final-Carretero-Covelli/static/media/avatar-photo.2e92dffd.png",
     "static/media/logo.svg": "/Proyecto-Final-Carretero-Covelli/static/media/logo.25bf045c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.54f46f82.js",
-    "static/js/2.1a40bae4.chunk.js",
-    "static/css/main.f05016c4.chunk.css",
-    "static/js/main.6c1a76fe.chunk.js"
+    "static/js/2.d79be4d4.chunk.js",
+    "static/css/main.09f8ffb2.chunk.css",
+    "static/js/main.86b2ae89.chunk.js"
   ]
 }

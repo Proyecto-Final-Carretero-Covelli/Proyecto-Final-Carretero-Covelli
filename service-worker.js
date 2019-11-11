@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Proyecto-Final-Carretero-Covelli/precache-manifest.7dcc8c96363a2e856460144f004ac37f.js"
+  "/Proyecto-Final-Carretero-Covelli/precache-manifest.31b647e09df2ca061fbe2e627ec46f77.js"
 );
 
 self.addEventListener('message', (event) => {
