@@ -1,0 +1,199 @@
+body > #root > div {
+  min-height: 100vh;
+  background-color: var(--main-color);
+}
+
+/* CSS TestLayout */
+
+nav {
+  background-color: #282c34;
+}
+
+.nav-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-text-logo {
+  font-size: 15px;
+  color: white;
+  padding: 10px 15px;
+  text-align: left;
+  margin: 0px;
+}
+
+.profile-img {
+  margin: 5px 20px;
+  height: 20px;
+  width: 20px;
+}
+
+.in-body {
+  background-color: var(--main-color);
+  height: 100vh;
+}
+
+.vertical-splitter {
+  --main-color: #242424;
+  background-color: var(--main-color);
+  min-height: calc(100vh - 38px);
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .vertical-splitter {
+    --main-color: #242424;
+    background-color: var(--main-color);
+    min-height: calc((100vh));
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div-l {
+    background-color: var(--main-color);
+    height: calc(100vh - 38px);
+    width: 100vw;
+    padding: 3px;
+  }
+
+  .div-r {
+    background-color: var(--main-color);
+    height: calc(100vh);
+    width: 100vw;
+    padding: 3px;
+    position: relative;
+  }
+}
+
+.div-l {
+  background-color: var(--main-color);
+  min-height: 100%;
+  min-width: 50vw;
+  padding: 3px;
+}
+
+.div-consigna-expanded {
+  background-color: #ffffff;
+  height: 20%;
+  width: 100%;
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-consigna-contract {
+  background-color: #ffffff;
+  height: 5%;
+  width: 100%;
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.h3-consigna {
+  font-size: medium;
+  text-align: left;
+  padding: 8px;
+  margin: 0px;
+}
+
+.profile-img {
+  margin-top: 8px;
+  height: 20px;
+  width: 20px;
+}
+
+.div-editor-expanded {
+  background-color: black;
+  height: 95%;
+  width: 100%;
+}
+
+.div-editor-contract {
+  background-color: black;
+  height: 80%;
+  width: 100%;
+}
+
+.ace_content {
+  height: 100%;
+}
+
+.div-r {
+  background-color: var(--main-color);
+  min-width: 40vw;
+  padding: 3px;
+  position: relative;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+.div-interactive-view {
+  background-color: #765ca1;
+  height: 60%;
+  margin-bottom: 3px;
+}
+
+.div-centralizar-contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 80px;
+}
+
+.div-test-base {
+  background-color: #009688;
+  height: 40%;
+}
+
+.div-contenedor-capsula {
+  position: absolute;
+  top: 55%;
+  left: auto;
+  border: none;
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-width: calc(100% - 18px);
+  max-width: calc(100% - 18px);
+}
+
+.div-play-pause-stop {
+  position: absolute;
+  top: auto;
+  left: auto;
+  border: none;
+  width: 150px;
+  height: 35px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 2px;
+}
+
+.medium-icon {
+  width: 32px;
+  height: 32px;
+  margin: 0px 6px;
+}
+
+.small-icon {
+  width: 26px;
+  height: 26px;
+}
