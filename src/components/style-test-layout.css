@@ -18,7 +18,7 @@ nav {
 .nav-text-logo {
   font-size: 15px;
   color: white;
-  padding: 10px 15px;
+  padding: 10px 13px;
   text-align: left;
   margin: 0px;
 }
@@ -37,7 +37,7 @@ nav {
 .vertical-splitter {
   --main-color: #242424;
   background-color: var(--main-color);
-  min-height: calc(100vh - 38px);
+  min-height: calc(100vh - 37.6px);
   display: flex;
 }
 
@@ -54,7 +54,7 @@ nav {
 
   .div-l {
     background-color: var(--main-color);
-    height: calc(100vh - 38px);
+    height: calc(100vh - 37.6px);
     width: 100vw;
     padding: 3px;
   }
@@ -96,12 +96,12 @@ nav {
 .h3-consigna {
   font-size: medium;
   text-align: left;
-  padding: 8px;
+  padding: 10px;
   margin: 0px;
 }
 
 .profile-img {
-  margin-top: 8px;
+  margin-top: 10px;
   height: 20px;
   width: 20px;
 }

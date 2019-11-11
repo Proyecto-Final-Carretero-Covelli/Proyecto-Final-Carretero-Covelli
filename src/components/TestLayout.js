@@ -18,9 +18,7 @@ export default function TestLayout() {
     <div className="in-body">
       <nav>
         <div className="nav-div">
-          <h1 className="nav-text-logo">
-            Test Proyecto Final Carretero-Covelli
-          </h1>
+          <h1 className="nav-text-logo">Proyecto Final Carretero-Covelli</h1>
           <img
             className="profile-img"
             src={require("./images/avatar-photo.png")}
