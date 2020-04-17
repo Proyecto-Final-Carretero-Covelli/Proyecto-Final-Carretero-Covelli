@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import AceEditor from "react-ace";
 import "ace-builds/src-noconflict/theme-dracula";
 import "./style-test-layout.css";
+import TestInteractiveView from "./TestInteractiveView";
+import VisReact from "./visreact";
 
 export default function TestLayout() {
   const [isConsignaExpand, setConsignaExpand] = useState(false);
@@ -60,15 +62,7 @@ export default function TestLayout() {
 
           <div className="div-r">
             <div className="div-interactive-view div-centralizar-contenido">
-              <h4>
-                <strong>Vista Interactiva Estructuras de Datos</strong>
-              </h4>
-              <br />
-              <p>
-                Donde sera prosible visualizar las estructuras de datos
-                declarados con sus valores iniciales y el cambio de los mismos
-                durante su ejecución
-              </p>
+              <TestInteractiveView />
             </div>
 
             <div className="div-contenedor-capsula">
