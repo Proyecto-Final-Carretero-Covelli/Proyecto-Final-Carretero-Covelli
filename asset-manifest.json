@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Konva/static/css/main.d150175c.chunk.css",
-    "main.js": "/React-Konva/static/js/main.5fba7976.chunk.js",
-    "main.js.map": "/React-Konva/static/js/main.5fba7976.chunk.js.map",
-    "runtime-main.js": "/React-Konva/static/js/runtime-main.4f26a7f3.js",
-    "runtime-main.js.map": "/React-Konva/static/js/runtime-main.4f26a7f3.js.map",
-    "static/js/2.288a84a9.chunk.js": "/React-Konva/static/js/2.288a84a9.chunk.js",
-    "static/js/2.288a84a9.chunk.js.map": "/React-Konva/static/js/2.288a84a9.chunk.js.map",
-    "index.html": "/React-Konva/index.html",
-    "precache-manifest.f3747f967245b5e016e998ba8e201a56.js": "/React-Konva/precache-manifest.f3747f967245b5e016e998ba8e201a56.js",
-    "service-worker.js": "/React-Konva/service-worker.js",
-    "static/css/main.d150175c.chunk.css.map": "/React-Konva/static/css/main.d150175c.chunk.css.map",
-    "static/media/avatar-photo.png": "/React-Konva/static/media/avatar-photo.2e92dffd.png"
+    "main.css": "/Proyecto-Final-Carretero-Covelli/static/css/main.d150175c.chunk.css",
+    "main.js": "/Proyecto-Final-Carretero-Covelli/static/js/main.0a7895f1.chunk.js",
+    "main.js.map": "/Proyecto-Final-Carretero-Covelli/static/js/main.0a7895f1.chunk.js.map",
+    "runtime-main.js": "/Proyecto-Final-Carretero-Covelli/static/js/runtime-main.54f46f82.js",
+    "runtime-main.js.map": "/Proyecto-Final-Carretero-Covelli/static/js/runtime-main.54f46f82.js.map",
+    "static/js/2.288a84a9.chunk.js": "/Proyecto-Final-Carretero-Covelli/static/js/2.288a84a9.chunk.js",
+    "static/js/2.288a84a9.chunk.js.map": "/Proyecto-Final-Carretero-Covelli/static/js/2.288a84a9.chunk.js.map",
+    "index.html": "/Proyecto-Final-Carretero-Covelli/index.html",
+    "precache-manifest.029d679bc9c8467830f686d948f05fa3.js": "/Proyecto-Final-Carretero-Covelli/precache-manifest.029d679bc9c8467830f686d948f05fa3.js",
+    "service-worker.js": "/Proyecto-Final-Carretero-Covelli/service-worker.js",
+    "static/css/main.d150175c.chunk.css.map": "/Proyecto-Final-Carretero-Covelli/static/css/main.d150175c.chunk.css.map",
+    "static/media/avatar-photo.png": "/Proyecto-Final-Carretero-Covelli/static/media/avatar-photo.2e92dffd.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4f26a7f3.js",
+    "static/js/runtime-main.54f46f82.js",
     "static/js/2.288a84a9.chunk.js",
     "static/css/main.d150175c.chunk.css",
-    "static/js/main.5fba7976.chunk.js"
+    "static/js/main.0a7895f1.chunk.js"
   ]
 }
