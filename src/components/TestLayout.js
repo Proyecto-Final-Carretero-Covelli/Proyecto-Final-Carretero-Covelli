@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import AceEditor from "react-ace";
 import "ace-builds/src-noconflict/theme-dracula";
 import "./style-test-layout.css";
-import TestInteractiveView from "./TestInteractiveView";
-import VisReact from "./visreact";
+import MainKonvaView from "./interactive-view/MainKonvaView";
 
 export default function TestLayout() {
   const [isConsignaExpand, setConsignaExpand] = useState(false);
@@ -62,7 +61,7 @@ export default function TestLayout() {
 
           <div className="div-r">
             <div className="div-interactive-view div-centralizar-contenido">
-              <TestInteractiveView />
+              <MainKonvaView />
             </div>
 
             <div className="div-contenedor-capsula">

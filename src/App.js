@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 import TestLayout from "./components/TestLayout";
@@ -10,7 +9,7 @@ class App extends Component {
     return (
       <div>
         <TestLayout />
-        {/*<TestDataBase />*/}
+        <TestDataBase />
       </div>
     );
   }
