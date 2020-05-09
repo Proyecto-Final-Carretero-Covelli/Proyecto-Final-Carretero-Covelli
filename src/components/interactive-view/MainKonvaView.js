@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Stage, Layer } from "react-konva";
 import ArrayKonvaView from "./ArrayKonvaView.js";
 import VariableKonvaView from "./VariableKonvaView";
@@ -6,6 +6,18 @@ import { declaredVariables, declaredArrays } from "./test-data-parser";
 
 export default function MainKonvaView() {
   const [state, setState] = useState({ stageScale: 1, stageX: 0, stageY: 0 });
+  const [stageHeight, setStageHeight] = useState(0);
+  const [stageWidth, setStageWidth] = useState(0);
+
+  useEffect(() => {
+    setStageHeight(
+      document.getElementById("container-main-kova-view").offsetHeight
+    );
+    setStageWidth(
+      document.getElementById("container-main-kova-view").offsetWidth
+    );
+  });
+
   const [testVariable, setValueTestVariable] = useState({
     name: "Variable X",
     value: 2,
@@ -14,7 +26,6 @@ export default function MainKonvaView() {
   const handleWheel = (e) => {
     // Posible transformacion a Custom Hook
     e.evt.preventDefault();
-
     const scaleBy = 1.1;
     const stage = e.target.getStage();
     const oldScale = stage.scaleX();
@@ -22,9 +33,7 @@ export default function MainKonvaView() {
       x: stage.getPointerPosition().x / oldScale - stage.x() / oldScale,
       y: stage.getPointerPosition().y / oldScale - stage.y() / oldScale,
     };
-
     const newScale = e.evt.deltaY > 0 ? oldScale / scaleBy : oldScale * scaleBy;
-
     setState({
       stageScale: newScale,
       stageX:
@@ -71,12 +80,20 @@ export default function MainKonvaView() {
       return newObj;
     });
   }
+
   return (
-    <div style={{ overflow: "scroll", width: "100%", height: "100%" }}>
+    <div
+      id="container-main-kova-view"
+      style={{
+        width: "100%",
+        height: "100%",
+        backgroundColor: "pink",
+      }}
+    >
       <Stage
         style={{ alignSelf: "center", backgroundColor: "#44475A" }}
-        width="500"
-        height="500"
+        width={stageWidth}
+        height={stageHeight}
         onWheel={handleWheel}
         scaleX={state.stageScale}
         scaleY={state.stageScale}
